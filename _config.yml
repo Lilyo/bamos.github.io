@@ -1,5 +1,6 @@
 name: You-Feng Wu
 url: https://lilyo.github.io/wyf-Arthur.github.io/
+baseurl: '/wyf-Arthur/'
 destination: ./_site
 twitter: brandondamos
 lsi: false
