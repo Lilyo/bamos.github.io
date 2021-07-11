@@ -102,6 +102,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em><br>
     <strong>B. Amos</strong>, S. Stanton, D. Yarats, and A. Wilson<br>
@@ -146,6 +147,7 @@ an ensemble.
 
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em><br>
     S. Cohen*, <strong>B. Amos*</strong>, and Y. Lipman<br>
