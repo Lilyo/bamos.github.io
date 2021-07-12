@@ -109,7 +109,7 @@ Kaikutek inc. | Taipei<br>
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
+<a href="https://lilyo.github.io/" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
