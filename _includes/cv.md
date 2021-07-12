@@ -175,67 +175,6 @@ The experimental results show that, with the proposed three modules, our end-to-
 
 ## <i class="fa fa-chevron-right"></i> Selected Projects
 
-<h2>2021</h2>
-<table class="table table-hover">
-
-<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
-<td>
-    <em><a href='http://acm.cs.nctu.edu.tw/Demo.aspx?c=4' target='_blank'>A Multi-task Network for Scene Segmentation and Depth Map Refinement used in a RGBD Robot.</a> </em><br>
-    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
-    Feb. 2019 - May. 2019<br>
-	MOST-107-2622-E194-007-CC3<br>
-    [1] 
-[<a href='javascript:;'
-    onclick='$("#abs_slam").toggle()'>abs</a>] [<a href='https://www.youtube.com/watch?v=LuUTbhfWlVQ' target='_blank'>video</a>]<br>
-    
-<div id="abs_slam" style="text-align: justify; display: none" markdown="1">
-Nowadays, there are many service robots in the market; however, only few of them become a popular product. 
-Among them, the vacuum cleaning robot might be the most successful one and treated as the key entry point toward the future market of service robots. 
-In order to enable the intelligent function in a cleaning robot, the ability for a robot to Simultaneous Localization and Mapping (SLAM) is the fundamental and critical step. 
-Hence, in this project, we aim to study and implement the SLAM algorithm in a cleaning robot. 
-Besides, to match the video surveillance purpose of the future product, we plan to adopt an omni-directional camera as an environmental sensor. 
-Our system would use a robot as the research platform with an omni-directional camera embedded on the top. 
-By using the camera to capture omni-directional images, we might have richer information for scene landmark detection and feature extraction. 
-Compared with a standard camera, the function to gather image information from all directions makes an omni-directional camera more suitable for simultaneous localization and mapping. 
-To well use the scene information provided by an omni-directional camera for SLAM, we would spend the major research efforts on the following three technical issues:
-(1) Scene landmark detection based on a distorted omni-directional image
-(2) Landmark feature description and landmark matching	
-(3) The integration of SLAM framework and landmark information
-
-</div>
-
-</td>
-</tr>
-
-</table>
-
-<h2>2020</h2>
-<table class="table table-hover">
-
-<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
-<td>
-    <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>Automatic Management of Roadside Parking Spaces based on Deep Learning, Geomagnetic Sensor Networks, and LoRa Communication.</a> </em><br>
-    <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
-    ICPR 2021<br>
-    [1] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>]  [<a href='https://youtu.be/ABS40GW7Ekk?t=5393' target='_blank'>talk</a>] <br>
-    
-<div id="abs_amos2021modelbased" style="text-align: justify; display: none" markdown="1">
-Model-based reinforcement learning approaches add explicit domain
-knowledge to agents in hopes of improving the
-sample-efficiency in comparison to model-free
-agents. However, in practice model-based methods are
-
-</div>
-
-</td>
-</tr>
-
-</table>
-
 <h2>2018</h2>
 <table class="table table-hover">
 
@@ -271,6 +210,49 @@ We proposed a methodology for non uniform sampling which can improve the converg
     
 <div id="abs_seg" style="text-align: justify; display: none" markdown="1">
 Most of the image segmentation task is completed by U net. For better performance, we combine U-net and inception module for retina segmentation
+</div>
+
+</td>
+</tr>
+
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/shot_change.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td>
+    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Shot change.</a> </em><br>
+    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+    Jul. 2017 - Feb. 2018  <br>
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_shot").toggle()'>abs</a>]<br>
+    
+<div id="abs_shot" style="text-align: justify; display: none" markdown="1">
+Most of t
+</div>
+
+</td>
+</tr>
+
+</table>
+
+<h2>2017</h2>
+<table class="table table-hover">
+
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/orbslam.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td>
+    <em><a href='http://acm.cs.nctu.edu.tw/Demo.aspx?c=4' target='_blank'>ORB-SLAM2 runs in real-time on an NVIDIA Jetson TX2.</a> </em><br>
+    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+    Fed. 2017 - Nov. 2017<br>
+	MOST-107-2622-E194-007-CC3<br>
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_slam").toggle()'>abs</a>] [<a href='https://www.youtube.com/watch?v=LuUTbhfWlVQ' target='_blank'>video</a>]<br>
+    
+<div id="abs_slam" style="text-align: justify; display: none" markdown="1">
+Nowadays, there are many service robots in the market; however, only few of them become a popular product. 
+Among them, the vacuum cleaning robot might be the most successful one and treated as the key entry point toward the future market of service robots. 
+In order to enable the intelligent function in a cleaning robot, the ability for a robot to Simultaneous Localization and Mapping (SLAM) is the fundamental and critical step. 
+Hence, in this project, we aim to study and implement the SLAM algorithm in a cleaning robot.
 </div>
 
 </td>
