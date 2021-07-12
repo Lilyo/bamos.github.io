@@ -30,10 +30,6 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 • Lead machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
 </p>
 
-<p style="color:#900C3F">
-<b>Since the demo video is now private, please watch this video via [<a href='https://www.youtube.com/watch?v=POwsmqwSGcM' target='_blank'>video</a>]<br></b>
-</p>
-
 <div id='outerdiv' style="width:800px; overflow-x:hidden;">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/POwsmqwSGcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
