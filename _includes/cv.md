@@ -222,14 +222,14 @@ Most of the image segmentation task is completed by U net. For better performanc
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/ebma2.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://github.com/Lilyo/EBMA' target='_blank'><img src="images/publications/ebma.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>The Study of Integer-/Half-Pixel Exhaustive Block Matching Algorithm for Motion Estimation.</a> </em><br>
+    <em><a href='https://github.com/Lilyo/EBMA' target='_blank'>The Study of Integer-/Half-Pixel Exhaustive Block Matching Algorithm for Motion Estimation.</a> </em><br>
     <strong>You-Feng Wu</strong> and Jui-Chiu Chiang<br>
     Nov. 2017<br>
-    [4] 
+    [5] 
 [<a href='javascript:;'
-    onclick='$("#abs_ebma").toggle()'>abs</a>]<br>
+    onclick='$("#abs_ebma").toggle()'>abs</a>] [<a href='https://github.com/Lilyo/EBMA' target='_blank'>code</a>] <br>
     
 <div id="abs_ebma" style="text-align: justify; display: none" markdown="1">
 Assume that the adjacent frames are similar and change are due to object or camera motion, we can predict a new frame from a previous frame and only code the prediction error.
@@ -245,7 +245,7 @@ Assume that the adjacent frames are similar and change are due to object or came
     <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
     Fed. 2017 - Nov. 2017<br>
 	MOST-107-2622-E194-007-CC3<br>
-    [1] 
+    [6] 
 [<a href='javascript:;'
     onclick='$("#abs_slam").toggle()'>abs</a>] [<a href='https://www.youtube.com/watch?v=LuUTbhfWlVQ' target='_blank'>video</a>]<br>
     
