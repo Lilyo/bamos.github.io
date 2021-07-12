@@ -238,7 +238,7 @@ Most of t
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/orbslam.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/slam.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://acm.cs.nctu.edu.tw/Demo.aspx?c=4' target='_blank'>ORB-SLAM2 runs in real-time on an NVIDIA Jetson TX2.</a> </em><br>
     <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
