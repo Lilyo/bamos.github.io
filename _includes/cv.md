@@ -7,6 +7,34 @@ recently developing gesture recognition with mmWave frequency modulated continuo
 such as the time-frequency spectrogram, micro-doppler spectrogram, or range-Doppler image (RDI). Meanwhile, this topic also involve few-shot learning, 
 long-tailed or rapid gesture recognition task, even sub-actions exploration.
 
+
+## <i class="fa fa-chevron-right"></i> Spotlight news
+<table class="table table-hover">
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>ML Application - TWS Headset with In-Air Gesturing</strong><br>
+Lead machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
+[<a href='https://www.youtube.com/watch?v=POwsmqwSGcM' target='_blank'>video</a>]<br>
+
+</p>
+</td>
+<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Current</td>
+</tr>
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>ML Application - ONWAY Smart Cable with In-Air Gesturing</strong><br>
+• Coming soon...<br>
+</p>
+</td>
+<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Jun. 2021</td>
+</tr>
+
+</table>
+
 ## <i class="fa fa-chevron-right"></i> Experiences
 <table class="table table-hover">
 
@@ -246,7 +274,7 @@ Assume that the adjacent frames are similar and change are due to object or came
 <td>
     <em><a href='http://acm.cs.nctu.edu.tw/Demo.aspx?c=4' target='_blank'>ORB-SLAM2 runs in real-time on an NVIDIA Jetson TX2.</a> </em><br>
     <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
-    Fed. 2017 - Nov. 2017<br>
+    Feb. 2017 - Nov. 2017<br>
 	MOST-107-2622-E194-007-CC3<br>
     [6] 
 [<a href='javascript:;'
