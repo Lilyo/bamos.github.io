@@ -196,7 +196,7 @@ The results also demonstrate the superiority of DEN over some state-of-the-art a
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://github.com/Lilyo/Parking-Space-Inference' target='_blank'><img src="images/publications/multi_task.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
+    <em><a href='https://ieeexplore.ieee.org/document/8743537' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
     <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
     MAPR 2019  <br>
     [2] 
