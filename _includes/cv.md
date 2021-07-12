@@ -14,14 +14,33 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>ML Application - TWS Headset with In-Air Gesturing</strong><br>
-Lead machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
-[<a href='https://www.youtube.com/watch?v=POwsmqwSGcM' target='_blank'>video</a>]<br>
-
+<strong>JMicron‧KaiKuTeK - Revolutionary Gesture Recognition 60GHz mmWave Radar Solution</strong><br>
 </p>
+<div id='outerdiv' style="width:800px; overflow-x:hidden;">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Ix9PY89ML90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</td>
+<td class='col-md-2' style='text-align:right;'>2021</td>
+</tr>
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>ML Application - TWS Headset with In-Air Gesturing</strong><br>
+• Lead machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
+</p>
+
+<p style="color:#900C3F">
+<b>Since the demo video is now private, please watch this video via [<a href='https://www.youtube.com/watch?v=POwsmqwSGcM' target='_blank'>video</a>]<br></b>
+</p>
+
+<div id='outerdiv' style="width:800px; overflow-x:hidden;">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/POwsmqwSGcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </td>
 <td class='col-md-2' style='text-align:right;'>Nov. 2020 - Current</td>
 </tr>
+
 
 <tr>
 <td>
