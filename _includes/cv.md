@@ -109,20 +109,28 @@ Kaikutek inc. | Taipei<br>
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://github.com/Lilyo/DEN' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
     <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
-    ICPR 2021<br>
+    ICPR 2020<br>
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>]  [<a href='https://youtu.be/ABS40GW7Ekk?t=5393' target='_blank'>talk</a>] <br>
+    onclick='$("#abs_den").toggle()'>abs</a>] [<a href='https://github.com/Lilyo/DEN' target='_blank'>code</a>] <br>
     
-<div id="abs_amos2021modelbased" style="text-align: justify; display: none" markdown="1">
-Model-based reinforcement learning approaches add explicit domain
-knowledge to agents in hopes of improving the
-sample-efficiency in comparison to model-free
-agents. However, in practice model-based methods are
+<div id="abs_den" style="text-align: justify; display: none" markdown="1">
+In this paper, we tackle the depth completion problem. Conventional depth sensors usually produce incomplete depth maps due to the property of surface reflection, 
+especially for the window areas, metal surfaces, and object boundaries. 
+However, we observe that the corresponding RGB images are still dense and preserve all of the useful structural information. 
+The observation brings us to the question of whether we can borrow this structural information from RGB images to inpaint the corresponding incomplete depth maps. 
+In this paper, we answer that question by proposing a Disentangling and Exchanging Network (DEN) for depth completion. 
+The network is designed based on the assumption that after suitable feature disentanglement, RGB images and depth maps share a common domain for representing structural information. 
+So we firstly disentangle both RGB and depth images into domain-invariant content parts, which contain structural information, and domain-specific style parts. 
+Then, by exchanging the complete structural information extracted from the RGB image with incomplete information extracted from the depth map, we can generate the complete version of the depth map. 
+Furthermore, to address the mixed-depth problem, a newly proposed depth representation is applied. 
+By modeling depth estimation as a classification problem coupled with coefficient estimation, blurry edges are enhanced in the depth map. 
+At last, we have implemented ablation experiments to verify the effectiveness of the proposed DEN model. 
+The results also demonstrate the superiority of DEN over some state-of-the-art approaches.
 
 </div>
 
@@ -135,28 +143,24 @@ agents. However, in practice model-based methods are
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://github.com/Lilyo/Parking-Space-Inference' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
     <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
-    SummerSim 2014  <br>
-    [38] 
+    MAPR 2019  <br>
+    [2] 
 [<a href='javascript:;'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
+    onclick='$("#abs_multi_task").toggle()'>abs</a>] [<a href='https://github.com/Lilyo/Parking-Space-Inference' target='_blank'>code</a>] <br>
     
-<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
-The complicated process by which a yeast cell divides, known as the cell
-cycle, has been modeled by a system of 26 nonlinear ordinary differential
-equations (ODEs) with 149 parameters. This model captures the chemical
-kinetics of the regulatory networks controlling the cell division process
-in budding yeast cells. Empirical data is discrete and matched against
-discrete inferences (e.g., whether a particular mutant cell lives or dies)
-computed from the ODE solution trajectories. The problem of
-estimating the ODE parameters to best fit the model to the data is a
-149-dimensional global optimization problem attacked by the deterministic
-algorithm VTDIRECT95 and by the nondeterministic algorithms differential
-evolution, QNSTOP, and simulated annealing, whose performances are
-compared.
+<div id="abs_multi_task" style="text-align: justify; display: none" markdown="1">
+To manage on-street parking spaces, magnetic sensor is often used due to its low cost and flexibility in installation and usage. 
+However, its signals are easily affected by environment, vehicle type, installation location and moving neighboring vehicles. 
+Besides, accidental installation also leads to non-unified coordinate of magnetic sensors which makes the management system difficult to recognize. 
+To overcome these challenges, we proposed a novel semi-supervised and multi-task learning framework for sensor based on-street parking slot inference with three contributions. 
+First, a Coordinate Transform Module is integrated into our framework to reduce the diversity of input signals by transforming them adaptively into a unified coordinate. 
+Second, to learn the generalized and discriminative features while minimizing the amount of labeled data, we introduce a Multi-task Module to leverage the information from both labeled and unlabeled data. 
+Third, we embed a Temporal Module, which observes and memorizes the parking states from time to time, to infer parking space status in a reliable way. 
+The experimental results show that, with the proposed three modules, our end-to-end training framework could reduce the error detection and hence improve the system accuracy.
 </div>
 
 </td>
@@ -168,28 +172,22 @@ compared.
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://lilyo.github.io/' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
+    <em><a href='https://lilyo.github.io/' target='_blank'>SENSOR BASED ON-STREET PARKING SPACE STATUS INFERENCE UPON A SEMI-SUPERVISED AND MULTI-TASK LEARNING NETWORK</a> </em><br>
     <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
-    SummerSim 2014  <br>
-    [38] 
+    CVGIP 2018  <br>
+    [3] 
 [<a href='javascript:;'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
+    onclick='$("#abs_sensor_based").toggle()'>abs</a>]<br>
     
-<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
-The complicated process by which a yeast cell divides, known as the cell
-cycle, has been modeled by a system of 26 nonlinear ordinary differential
-equations (ODEs) with 149 parameters. This model captures the chemical
-kinetics of the regulatory networks controlling the cell division process
-in budding yeast cells. Empirical data is discrete and matched against
-discrete inferences (e.g., whether a particular mutant cell lives or dies)
-computed from the ODE solution trajectories. The problem of
-estimating the ODE parameters to best fit the model to the data is a
-149-dimensional global optimization problem attacked by the deterministic
-algorithm VTDIRECT95 and by the nondeterministic algorithms differential
-evolution, QNSTOP, and simulated annealing, whose performances are
-compared.
+<div id="abs_sensor_based" style="text-align: justify; display: none" markdown="1">
+In this paper, we proposed a novel semi-supervised learning framework for sensor based on-street parking slot detection. 
+Our framework composes of three main parts: Coordinate Transform Module, Multi-task Module, and Temporal Module. 
+Firstly, in order to handle the non-unified coordinate problem of magnetic sensors, Coordinate Transform Module is proposed to project the magnetic signals into a unified coordinate. 
+Then, Multi-task Module is introduced to leverage the information from both labeled and unlabeled data and thus learn the generalized and discriminative features that are useful for inferring the parking states. 
+Finally, the Temporal Module is embedded into our framework to observe and memorize the parking states from time to time and make the final inference for parking space status. 
+As shown in the experimental results, with the designed end-to-end training framework, the error detection could be reduced and hence improve the system accuracy. 
 </div>
 </td>
 </tr>
