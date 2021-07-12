@@ -109,7 +109,7 @@ Kaikutek inc. | Taipei<br>
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://github.com/Lilyo/DEN' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://github.com/Lilyo/DEN' target='_blank'><img src="images/publications/den.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
     <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
@@ -143,7 +143,7 @@ The results also demonstrate the superiority of DEN over some state-of-the-art a
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://github.com/Lilyo/Parking-Space-Inference' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://github.com/Lilyo/Parking-Space-Inference' target='_blank'><img src="images/publications/multi_task.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
     <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
@@ -163,32 +163,6 @@ Third, we embed a Temporal Module, which observes and memorizes the parking stat
 The experimental results show that, with the proposed three modules, our end-to-end training framework could reduce the error detection and hence improve the system accuracy.
 </div>
 
-</td>
-</tr>
-
-</table>
-
-<h2>2018</h2>
-<table class="table table-hover">
-
-<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://lilyo.github.io/' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
-<td>
-    <em><a href='https://lilyo.github.io/' target='_blank'>SENSOR BASED ON-STREET PARKING SPACE STATUS INFERENCE UPON A SEMI-SUPERVISED AND MULTI-TASK LEARNING NETWORK</a> </em><br>
-    <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
-    CVGIP 2018  <br>
-    [3] 
-[<a href='javascript:;'
-    onclick='$("#abs_sensor_based").toggle()'>abs</a>]<br>
-    
-<div id="abs_sensor_based" style="text-align: justify; display: none" markdown="1">
-In this paper, we proposed a novel semi-supervised learning framework for sensor based on-street parking slot detection. 
-Our framework composes of three main parts: Coordinate Transform Module, Multi-task Module, and Temporal Module. 
-Firstly, in order to handle the non-unified coordinate problem of magnetic sensors, Coordinate Transform Module is proposed to project the magnetic signals into a unified coordinate. 
-Then, Multi-task Module is introduced to leverage the information from both labeled and unlabeled data and thus learn the generalized and discriminative features that are useful for inferring the parking states. 
-Finally, the Temporal Module is embedded into our framework to observe and memorize the parking states from time to time and make the final inference for parking space status. 
-As shown in the experimental results, with the designed end-to-end training framework, the error detection could be reduced and hence improve the system accuracy. 
-</div>
 </td>
 </tr>
 
