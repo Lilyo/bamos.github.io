@@ -99,7 +99,7 @@ Kaikutek inc. | Taipei<br>
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Publications <a href="https://github.com/bamos/cv/blob/master/publications/all.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+## <i class="fa fa-chevron-right"></i> Publications
 
 <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
@@ -169,7 +169,7 @@ The experimental results show that, with the proposed three modules, our end-to-
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Selected Projects <a href="https://github.com/bamos/cv/blob/master/publications/all.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+## <i class="fa fa-chevron-right"></i> Selected Projects
 
 <h2>2021</h2>
 <table class="table table-hover">
