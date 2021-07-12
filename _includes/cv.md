@@ -226,9 +226,9 @@ The experimental results show that, with the proposed three modules, our end-to-
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/cvae.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://lilyo.github.io/' target='_blank'><img src="images/publications/cvae.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Scene understanding based navigation system upon deep inference learning</a> </em><br>
+    <em><a href='https://lilyo.github.io/' target='_blank'>Scene understanding based navigation system upon deep inference learning</a> </em><br>
     <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
      Feb. 2018 - Jun. 2018 <br>
     [3] 
@@ -246,9 +246,9 @@ We proposed a methodology for non uniform sampling which can improve the converg
 </tr>
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/medical_segmentation.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://lilyo.github.io/' target='_blank'><img src="images/publications/medical_segmentation.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Inception U-net based medical image segmentation.</a> </em><br>
+    <em><a href='https://lilyo.github.io/' target='_blank'>Inception U-net based medical image segmentation.</a> </em><br>
     <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
     Jul. 2017 - Feb. 2018  <br>
     [4] 
