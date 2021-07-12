@@ -108,7 +108,7 @@ Kaikutek inc. | Taipei<br>
 <h2>2020</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
@@ -134,7 +134,7 @@ agents. However, in practice model-based methods are
 <h2>2019</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
@@ -167,7 +167,7 @@ compared.
 <h2>2018</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
@@ -199,10 +199,36 @@ compared.
 
 ## <i class="fa fa-chevron-right"></i> Selected Projects <a href="https://github.com/bamos/cv/blob/master/publications/all.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
+<h2>2021</h2>
+<table class="table table-hover">
+
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td>
+    <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
+    <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
+    ICPR 2021<br>
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>]  [<a href='https://youtu.be/ABS40GW7Ekk?t=5393' target='_blank'>talk</a>] <br>
+    
+<div id="abs_amos2021modelbased" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning approaches add explicit domain
+knowledge to agents in hopes of improving the
+sample-efficiency in comparison to model-free
+agents. However, in practice model-based methods are
+
+</div>
+
+</td>
+</tr>
+
+</table>
+
 <h2>2020</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
@@ -228,7 +254,7 @@ agents. However, in practice model-based methods are
 <h2>2019</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
@@ -261,7 +287,7 @@ compared.
 <h2>2018</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
@@ -303,42 +329,30 @@ compared.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Professional Activities
-<table class="table table-hover">
-<tr>
-  <td>
-      Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
-  <br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
-  <td class='col-md-2' style='text-align:right;'></td>
-  </td>
-</tr>
-<tr>
-  <td>
-     <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
-  </td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Skills
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>Languages</td>
+  <td class='col-md-2'>Programming Languages</td>
   <td>
-C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
+Python, MATLAB, C, C++, JAVA
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Frameworks</td>
+  <td class='col-md-2'>Deep Learning Frameworks</td>
   <td>
-JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+PyTorch, TensorFlow, Caffe
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Tools</td>
+  <td class='col-md-2'>GUI Tools</td>
   <td>
-Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
+PyQt5, wxPython
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Misc.</td>
+  <td>
+Linux, vim, git, tmux, LATEX
   </td>
 </tr>
 </table>
