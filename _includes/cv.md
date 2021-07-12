@@ -216,27 +216,27 @@ Most of the image segmentation task is completed by U net. For better performanc
 </td>
 </tr>
 
-<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/shot_change.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
-<td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Shot change.</a> </em><br>
-    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
-    Jul. 2017 - Feb. 2018  <br>
-    [4] 
-[<a href='javascript:;'
-    onclick='$("#abs_shot").toggle()'>abs</a>]<br>
-    
-<div id="abs_shot" style="text-align: justify; display: none" markdown="1">
-Most of t
-</div>
-
-</td>
-</tr>
-
 </table>
 
 <h2>2017</h2>
 <table class="table table-hover">
+
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/ebma2.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td>
+    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>The Study of Integer-/Half-Pixel Exhaustive Block Matching Algorithm for Motion Estimation.</a> </em><br>
+    <strong>You-Feng Wu</strong> and Jui-Chiu Chiang<br>
+    Nov. 2017<br>
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_ebma").toggle()'>abs</a>]<br>
+    
+<div id="abs_ebma" style="text-align: justify; display: none" markdown="1">
+Assume that the adjacent frames are similar and change are due to object or camera motion, we can predict a new frame from a previous frame and only code the prediction error.
+</div>
+
+</td>
+</tr>
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/slam.gif" onerror="this.style.display='none'" style='border: none;' /></a> </td>
