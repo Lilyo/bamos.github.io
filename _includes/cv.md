@@ -1,4 +1,8 @@
-I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in building learning systems that understand and interact with our world. I freely publish my research code to <a href="https://github.com/bamos">GitHub</a> as science should be open and reproducible and well-crafted software enables new frontiers. <br><br>
+A techie initiator, a problem hacker, and a great team player.<br>
+I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, 
+recently involving reinforcement learning, control, optimal transport, and geometry. 
+I am interested in building learning systems that understand and interact with our world. 
+I freely publish my research code to <a href="https://github.com/bamos">GitHub</a> as science should be open and reproducible and well-crafted software enables new frontiers. <br><br>
 
 ## <i class="fa fa-chevron-right"></i> Experiences
 <table class="table table-hover">
@@ -177,18 +181,27 @@ The experimental results show that, with the proposed three modules, our end-to-
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
-    <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
-    ICPR 2021<br>
+    <em><a href='http://acm.cs.nctu.edu.tw/Demo.aspx?c=4' target='_blank'>A Multi-task Network for Scene Segmentation and Depth Map Refinement used in a RGBD Robot.</a> </em><br>
+    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+    Feb. 2019 - May. 2019<br>
+	MOST-107-2622-E194-007-CC3<br>
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>]  [<a href='https://youtu.be/ABS40GW7Ekk?t=5393' target='_blank'>talk</a>] <br>
+    onclick='$("#abs_slam").toggle()'>abs</a>] [<a href='https://www.youtube.com/watch?v=LuUTbhfWlVQ' target='_blank'>video</a>]<br>
     
-<div id="abs_amos2021modelbased" style="text-align: justify; display: none" markdown="1">
-Model-based reinforcement learning approaches add explicit domain
-knowledge to agents in hopes of improving the
-sample-efficiency in comparison to model-free
-agents. However, in practice model-based methods are
+<div id="abs_slam" style="text-align: justify; display: none" markdown="1">
+Nowadays, there are many service robots in the market; however, only few of them become a popular product. 
+Among them, the vacuum cleaning robot might be the most successful one and treated as the key entry point toward the future market of service robots. 
+In order to enable the intelligent function in a cleaning robot, the ability for a robot to Simultaneous Localization and Mapping (SLAM) is the fundamental and critical step. 
+Hence, in this project, we aim to study and implement the SLAM algorithm in a cleaning robot. 
+Besides, to match the video surveillance purpose of the future product, we plan to adopt an omni-directional camera as an environmental sensor. 
+Our system would use a robot as the research platform with an omni-directional camera embedded on the top. 
+By using the camera to capture omni-directional images, we might have richer information for scene landmark detection and feature extraction. 
+Compared with a standard camera, the function to gather image information from all directions makes an omni-directional camera more suitable for simultaneous localization and mapping. 
+To well use the scene information provided by an omni-directional camera for SLAM, we would spend the major research efforts on the following three technical issues:
+(1) Scene landmark detection based on a distorted omni-directional image
+(2) Landmark feature description and landmark matching	
+(3) The integration of SLAM framework and landmark information
 
 </div>
 
@@ -203,7 +216,7 @@ agents. However, in practice model-based methods are
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
 <td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>DEN: Disentangling and Exchanging Network for Depth Completion</a> </em><br>
+    <em><a href='https://ieeexplore.ieee.org/document/9413146' target='_blank'>Automatic Management of Roadside Parking Spaces based on Deep Learning, Geomagnetic Sensor Networks, and LoRa Communication.</a> </em><br>
     <strong>You-Feng Wu</strong>, Vu-Hoang Tran, Ting-Wei Chang, Wei-Chen Chiu and Ching-Chun Huang<br>
     ICPR 2021<br>
     [1] 
@@ -223,66 +236,43 @@ agents. However, in practice model-based methods are
 
 </table>
 
-<h2>2019</h2>
-<table class="table table-hover">
-
-<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
-<td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
-    <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
-    SummerSim 2014  <br>
-    [38] 
-[<a href='javascript:;'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
-    
-<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
-The complicated process by which a yeast cell divides, known as the cell
-cycle, has been modeled by a system of 26 nonlinear ordinary differential
-equations (ODEs) with 149 parameters. This model captures the chemical
-kinetics of the regulatory networks controlling the cell division process
-in budding yeast cells. Empirical data is discrete and matched against
-discrete inferences (e.g., whether a particular mutant cell lives or dies)
-computed from the ODE solution trajectories. The problem of
-estimating the ODE parameters to best fit the model to the data is a
-149-dimensional global optimization problem attacked by the deterministic
-algorithm VTDIRECT95 and by the nondeterministic algorithms differential
-evolution, QNSTOP, and simulated annealing, whose performances are
-compared.
-</div>
-
-</td>
-</tr>
-
-</table>
-
 <h2>2018</h2>
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
-<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/bias_aware_heapify_policy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/cvae.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Semi-supervised and Multi-task Learning for On-street Parking Space Status Inference</a> </em><br>
-    <strong>You-Feng Wu</strong>, Hoang Tran Vu and Ching-Chun Huang<br>
-    SummerSim 2014  <br>
-    [38] 
+    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Scene understanding based navigation system upon deep inference learning</a> </em><br>
+    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+     Feb. 2018 - Jun. 2018 <br>
+    [3] 
 [<a href='javascript:;'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
+    onclick='$("#abs_cvae").toggle()'>abs</a>]<br>
     
-<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
-The complicated process by which a yeast cell divides, known as the cell
-cycle, has been modeled by a system of 26 nonlinear ordinary differential
-equations (ODEs) with 149 parameters. This model captures the chemical
-kinetics of the regulatory networks controlling the cell division process
-in budding yeast cells. Empirical data is discrete and matched against
-discrete inferences (e.g., whether a particular mutant cell lives or dies)
-computed from the ODE solution trajectories. The problem of
-estimating the ODE parameters to best fit the model to the data is a
-149-dimensional global optimization problem attacked by the deterministic
-algorithm VTDIRECT95 and by the nondeterministic algorithms differential
-evolution, QNSTOP, and simulated annealing, whose performances are
-compared.
+<div id="abs_cvae" style="text-align: justify; display: none" markdown="1">
+Traditionally, Sampling based motion planning (SBMP) has emerged as a successful algorithmic paradigm for solving high
+dimensional, complex, and dynamically constrained motion planning problems.
+However, the performance of SBMP is tied to the placement of samples in these promising regions, a result uniform sampling is only
+able to achieve through sheer exhaustion.
+We proposed a methodology for non uniform sampling which can improve the convergence speed of traditional particle based scattering algorithm
 </div>
+</td>
+</tr>
+
+<tr id="tr-amos2021modelbased" style="background-color: #E5EBF7">
+<td class="col-md-3"><a href='https://arxiv.org/pdf/1911.07574' target='_blank'><img src="images/publications/medical_segmentation.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
+<td>
+    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Inception U-net based medical image segmentation.</a> </em><br>
+    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+    Jul. 2017 - Feb. 2018  <br>
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_seg").toggle()'>abs</a>]<br>
+    
+<div id="abs_seg" style="text-align: justify; display: none" markdown="1">
+Most of the image segmentation task is completed by U net. For better performance, we combine U-net and inception module for retina segmentation
+</div>
+
 </td>
 </tr>
 
