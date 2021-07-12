@@ -16,12 +16,12 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <strong>Machine Learning Engineer</strong><br>
 Kaikutek inc. | Taipei<br>
 • Research Field<br>
-&ensp;&ensp;- Sub-actions exploration<br>
-&ensp;&ensp;- Rapid gesture recognition<br>
-&ensp;&ensp;- Temporal coherency<br>
+&ensp;&ensp;&ensp;&ensp;- Sub-actions exploration<br>
+&ensp;&ensp;&ensp;&ensp;- Rapid gesture recognition<br>
+&ensp;&ensp;&ensp;&ensp;- Temporal coherency<br>
 • SDK Machine Learning Team Leader<br>
-&ensp;&ensp;- Customers support, lead team members.<br>
-&ensp;&ensp;- Deploy Python API to AWS cloud training platform.<br>
+&ensp;&ensp;&ensp;&ensp;- Customers support, lead team members.<br>
+&ensp;&ensp;&ensp;&ensp;- Deploy Python API to AWS cloud training platform.<br>
 </p>
 </td>
 <td class='col-md-2' style='text-align:right;'>Feb 2020 - Current</td>
@@ -42,8 +42,8 @@ Kaikutek inc. | Taipei<br>
 <strong>Machine Learning Research Intern</strong><br>
 Kaikutek inc. | Taipei<br>
 • Research Field<br>
-&ensp;&ensp;- Long-Tailed Object Recognition<br>
-&ensp;&ensp;- Few-shot Learning<br>
+&ensp;&ensp;&ensp;&ensp;- Long-Tailed Object Recognition<br>
+&ensp;&ensp;&ensp;&ensp;- Few-shot Learning<br>
 </p>
 </td>
 <td class='col-md-2' style='text-align:right;'>Jul. 2019 - Oct. 2019</td>
