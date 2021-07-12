@@ -55,6 +55,7 @@ Kaikutek inc. | Taipei<br>
   <tr>
     <td>
         <strong>M.Sc. in Electronic Engineering</strong>
+		(4.14/4.30)
         <br>
       National Chung Cheng University | Chiayi
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
