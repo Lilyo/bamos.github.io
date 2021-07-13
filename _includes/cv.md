@@ -152,7 +152,7 @@ KaikuteK Inc. | Taipei<br>
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-<a href="https://lilyo.github.io/" class="btn btn-primary" style="padding: 0.3em;">
+<a href="https://scholar.google.com.tw/citations?hl=zh-TW&view_op=list_works&gmla=AJsN-F5cXEm3DcCrNxtM9TcQjGfayIXB1EpvcQM_KRAe9pRiXs8YaUgvpvHdPNWXG_aSHlF8uoMFHSF-7rjGP26BNBDXHKQ0OtM4UYryJS57huM7UUB9FZg&user=0VGDeTUAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
