@@ -229,7 +229,7 @@ The experimental results show that, with the proposed three modules, our end-to-
 <td class="col-md-3"><a href='https://lilyo.github.io/' target='_blank'><img src="images/publications/cvae.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em><a href='https://lilyo.github.io/' target='_blank'>Scene understanding based navigation system upon deep inference learning</a> </em><br>
-    <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
+    Ting-Wei Lin, <strong>You-Feng Wu</strong> and Ching-Chun Huang<br>
      Feb. 2018 - Jun. 2018 <br>
     [3] 
 [<a href='javascript:;'
