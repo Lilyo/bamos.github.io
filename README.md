@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/bamos/bamos.github.io.svg?branch=master)](https://travis-ci.org/bamos/bamos.github.io)
+[![Build Status](https://travis-ci.org/lilyo/lilyo.github.io.svg?branch=release)](https://travis-ci.org/lilyo/lilyo.github.io)
 
 # About
-This is the source code for my personal website.
+This is the source code for bamos personal website.
 Unless stated otherwise, all content is MIT-licensed,
 and some of the CV portions are created with the code
 in the [bamos/cv](https://github.com/bamos/cv) repo.
 
-# w3c compliance continuous integratio
+# Personal website
 [Personal website](https://lilyo.github.io/)
