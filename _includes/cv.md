@@ -57,7 +57,7 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <td>
 <p markdown="1" style='margin: 0'>
 <strong>Machine Learning Engineer</strong><br>
-KaikuteK inc. | Taipei<br>
+KaikuteK Inc. | Taipei<br>
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Sub-actions exploration<br>
 &ensp;&ensp;&ensp;&ensp;- Rapid gesture recognition<br>
@@ -83,7 +83,7 @@ KaikuteK inc. | Taipei<br>
 <td>
 <p markdown="1" style='margin: 0'>
 <strong>Machine Learning Research Intern</strong><br>
-KaikuteK inc. | Taipei<br>
+KaikuteK Inc. | Taipei<br>
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Long-Tailed Object Recognition<br>
 &ensp;&ensp;&ensp;&ensp;- Few-shot Learning<br>
