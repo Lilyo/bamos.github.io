@@ -2,7 +2,7 @@
 <b>A techie initiator, a problem hacker, and a great team player.</b><br>
 </p>
 
-I am a research scientist at <b>KaiKuTek Inc.</b> in Taiwan and study advanced topics in <b>machine learning</b> and <b>computer vision</b>, 
+I am a research scientist at <b>KaiKuTeK Inc.</b> in Taiwan and study advanced topics in <b>machine learning</b> and <b>computer vision</b>, 
 recently developing gesture recognition with mmWave frequency modulated continuous wave (FMCW) radar, which adopts the range and the velocity estimated from the raw data, 
 such as the time-frequency spectrogram, micro-doppler spectrogram, or range-Doppler image (RDI). Meanwhile, this topic also involve few-shot learning, 
 long-tailed or rapid gesture recognition task, even sub-actions exploration.
@@ -57,7 +57,7 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <td>
 <p markdown="1" style='margin: 0'>
 <strong>Machine Learning Engineer</strong><br>
-Kaikutek inc. | Taipei<br>
+KaikuteK inc. | Taipei<br>
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Sub-actions exploration<br>
 &ensp;&ensp;&ensp;&ensp;- Rapid gesture recognition<br>
@@ -83,7 +83,7 @@ Kaikutek inc. | Taipei<br>
 <td>
 <p markdown="1" style='margin: 0'>
 <strong>Machine Learning Research Intern</strong><br>
-Kaikutek inc. | Taipei<br>
+KaikuteK inc. | Taipei<br>
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Long-Tailed Object Recognition<br>
 &ensp;&ensp;&ensp;&ensp;- Few-shot Learning<br>
