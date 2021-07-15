@@ -1,5 +1,5 @@
 <p style="color:#0072DD;font-size:2.6rem">
-<b>A techie initiator, a problem hacker, and a great team player.</b><br>
+<b>A techie initiator, a problem hacker and a great team player.</b><br>
 </p>
 
 I am a research scientist at <b>KaiKuTeK Inc.</b> in Taiwan and study advanced topics in <b>machine learning</b> and <b>computer vision</b>, 
