@@ -14,14 +14,24 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>JMicron‧KaiKuTeK - Revolutionary Gesture Recognition 60GHz mmWave Radar Solution</strong><br>
+<strong>ML Application - ACSIS Smart Charging Cable with In-Air Gesturing</strong><br>
+<a href='https://item.m.jd.com/product/10032443440052.html?gx=RnFtl2BdOjzfndQUrIF-XSHfSvY1pY-x&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&fbclid=IwAR2Z7i7-_r1LsPFdWGYlHHZS5nzdgimzbd3YGfC__FV7iYRBElljk2QdQeo' target='_blank'><img src="images/application/ACASIS.gif" onerror="this.style.display='none'" style='border: none;' width='640' height='980' /></a>
 </p>
-<div id='outerdiv' style="width:800px; overflow-x:hidden;">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Ix9PY89ML90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 </td>
-<td class='col-md-2' style='text-align:right;'>2021</td>
+<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Jun. 2021</td>
 </tr>
+
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>ML Application - Clone Dual-Bay External Hard Drive Duplicator with In-Air Gesturing</strong><br>
+<a href='https://world.taobao.com/item/650812289577.htm?spm=a21wu.10013406-tw.taglist-content.22.68703044FnI8Xv' target='_blank'><img src="images/application/duplicator.jpg" onerror="this.style.display='none'" style='border: none;' width='640' height='980' /></a>
+</p>
+</td>
+<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Jun. 2021</td>
+</tr>
+
 
 <tr>
 <td>
@@ -41,12 +51,15 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>ML Application - ONWAY Smart Cable with In-Air Gesturing</strong><br>
-• Coming soon...<br>
+<strong>JMicron‧KaiKuTeK - Revolutionary Gesture Recognition 60GHz mmWave Radar Solution</strong><br>
 </p>
+<div id='outerdiv' style="width:800px; overflow-x:hidden;">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Ix9PY89ML90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </td>
-<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Jun. 2021</td>
+<td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
+
 
 </table>
 
