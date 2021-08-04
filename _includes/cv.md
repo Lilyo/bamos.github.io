@@ -8,7 +8,7 @@ such as the time-frequency spectrogram, micro-doppler spectrogram, or range-Dopp
 long-tailed or rapid gesture recognition task, even sub-actions exploration.
 
 
-## <i class="fa fa-chevron-right"></i> Spotlight news
+## <i class="fa fa-chevron-right"></i> Spotlight news [<img src="./images/com//update.gif">]
 <table class="table table-hover">
 
 <tr>
