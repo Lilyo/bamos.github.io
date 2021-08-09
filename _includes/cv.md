@@ -19,7 +19,7 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_tws").toggle()'>Intro</a>] <br>
-<div id="abs_tws" style="text-align: justify; display: none" markdown="1">
+<div id="abs_tws" style="text-align: justify;" markdown="1">
 This presentation is a case study where we are demonstrating how we developed gesture-controlled headphones using a radar sensor on Edge AI applications. 
 I was assigned as the SDK porject leader to be responsible for this task, and led machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
 <div id='outerdiv' style="width:800px; overflow-x:hidden;">
@@ -37,7 +37,7 @@ I was assigned as the SDK porject leader to be responsible for this task, and le
 <strong>ML Application - ACSIS Smart Charging Cable with In-Air Gesturing [<img src="./images/com//update.gif">]</strong><br>
 </p>
 [<a href='javascript:;' onclick='$("#abs_cable").toggle()'>Intro</a>] <br>
-<div id="abs_cable" style="text-align: justify; display: none" markdown="1">
+<div id="abs_cable" style="text-align: justify;" markdown="1">
 The first commercial product using KaiKuTeK AI solution was launched by the SDK team in 2021. 
 It is a symbolic product to push for low power and low-latency deep learning models, computing hardware, and systems for inference on edge devices.<br>
 <a href='https://item.m.jd.com/product/10032443440052.html?gx=RnFtl2BdOjzfndQUrIF-XSHfSvY1pY-x&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&fbclid=IwAR2Z7i7-_r1LsPFdWGYlHHZS5nzdgimzbd3YGfC__FV7iYRBElljk2QdQeo' target='_blank'><img src="images/application/ACASIS.gif" onerror="this.style.display='none'" style='border: none;' width='640' height='980' /></a>
