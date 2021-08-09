@@ -21,7 +21,7 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 [<a href='javascript:;' onclick='$("#abs_tws").toggle()'>Intro</a>] <br>
 <div id="abs_tws" style="text-align: justify; display: none" markdown="1">
 This presentation is a case study where we are demonstrating how we developed gesture-controlled headphones using a radar sensor on Edge AI applications. 
-Lead machine learning team of SDK project to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
+I was assigned as the SDK porject leader to be responsible for this task, and led machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
 <div id='outerdiv' style="width:800px; overflow-x:hidden;">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/POwsmqwSGcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
