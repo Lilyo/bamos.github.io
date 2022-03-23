@@ -17,9 +17,18 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
+<strong>Our fast gesture recognition method has been granted a patent in Taiwan. [<img src="./images/com//update.gif">]</strong><br> 
+</p>
+</td>
+<td class='col-md-2' style='text-align:right;'>Dec 1, 2021</td>
+</tr>
+
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
 <strong>ML Application - TWS Headset with In-Air Gesturing [<img src="./images/com//update.gif">]</strong><br> 
 </p>
-
 [<a href='javascript:;' onclick='$("#abs_tws").toggle()'>Intro</a>] <br>
 <div id="abs_tws" style="text-align: justify;" markdown="1">
 This presentation is a case study where we are demonstrating how we developed gesture-controlled headphones using a radar sensor on Edge AI applications. 
@@ -28,18 +37,19 @@ I was assigned as the SDK porject leader to be responsible for this task, and le
 <iframe width="640" height="360" src="https://www.youtube.com/embed/POwsmqwSGcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
+
 </td>
-<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Current</td>
+<td class='col-md-2' style='text-align:right;'>Nov. 2020 - Mar. 2022</td>
 </tr>
 
 
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>ML Application - ACSIS Smart Charging Cable with In-Air Gesturing [<img src="./images/com//update.gif">]</strong><br>
+<strong>ML Application - ACSIS Smart Charging Cable with In-Air Gesturing</strong><br>
 </p>
 [<a href='javascript:;' onclick='$("#abs_cable").toggle()'>Intro</a>] <br>
-<div id="abs_cable" style="text-align: justify;" markdown="1">
+<div id="abs_cable" style="text-align: justify; display: none" markdown="1">
 The first commercial product using KaiKuTeK AI solution was launched by the SDK team in 2021. 
 It is a symbolic product to push for low power and low-latency deep learning models, computing hardware, and systems for inference on edge devices.<br>
 <a href='https://item.m.jd.com/product/10032443440052.html?gx=RnFtl2BdOjzfndQUrIF-XSHfSvY1pY-x&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&fbclid=IwAR2Z7i7-_r1LsPFdWGYlHHZS5nzdgimzbd3YGfC__FV7iYRBElljk2QdQeo' target='_blank'><img src="images/application/ACASIS.gif" onerror="this.style.display='none'" style='border: none;' width='640' height='980' /></a>
@@ -102,7 +112,7 @@ KaikuteK Inc. | Taipei<br>
 &ensp;&ensp;&ensp;&ensp;- Deploy Python API to AWS cloud training platform.<br>
 </p>
 </td>
-<td class='col-md-2' style='text-align:right;'>Feb 2020 - Current</td>
+<td class='col-md-2' style='text-align:right;'>Feb. 2020 - Mar. 2022</td>
 </tr>
 
 <tr>
@@ -181,6 +191,32 @@ KaikuteK Inc. | Taipei<br>
 	</p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2019</td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Patents
+<table class="table table-hover">
+<tr>
+  <td>
+	<p style="font-size:1.5rem">
+		<strong>You-Feng Wu. 2020. IMPULSE-LIKE GESTURE RECOGNITION METHOD, AND IMPULSE-LIKE GESTURE RECOGNITION SYSTEM. Taiwan Patent I748778, filed Dec 1, 2021.</strong><br>
+	</p>
+	
+	<p style="font-size:1.2rem">
+	<a href="https://twpat2.tipo.gov.tw/twpatc/twpatkm?.84cc0F1F0100000000010050^000000000002301000000010100A7004285">"LINK"</a>
+	</p>
+	
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
+	<p style="font-size:1.5rem">
+    <strong>You-Feng Wu. 2020. IMPULSE-LIKE GESTURE RECOGNITION METHOD, AND IMPULSE-LIKE GESTURE RECOGNITION SYSTEM. U.S. Patent 17/084,986, filed Oct 30, 2020. Patent pending.</strong><br>
+	</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 </table>
 
