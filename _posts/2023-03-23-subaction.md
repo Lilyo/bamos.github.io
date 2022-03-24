@@ -109,7 +109,7 @@ In this article, we tend to use recursive-based methods (such as CNN with RNN) i
 <a id="fig5"></a>
 {% include image.html
    img="/data/subaction/hussein2019videograph2.png"
-   caption="Fig. 5, [[3][hussein2019videograph]] Demostraction of our sub-action result."
+   caption="Fig. 5, [[3][hussein2019videograph]]."
 %}
 
 Inspired by [[3][hussein2019videograph]], in a dataset of human activities, unit-actions can be thought of as the dominant latent short-range concepts. 
@@ -124,7 +124,7 @@ There are three key points worth to be mentioned:
 <a id="fig6"></a>
 {% include image.html
    img="/data/subaction/hussein2019videograph3.png"
-   caption="Fig. 6, [[3][hussein2019videograph]] Demostraction of our sub-action result."
+   caption="Fig. 6, [[3][hussein2019videograph]] Node Attention Module."
 %}
 
 Although the properties of this work meets our goal, there are some concerns. First of all, it can not perform frame-wise inference.
