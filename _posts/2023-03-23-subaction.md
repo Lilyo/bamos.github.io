@@ -127,10 +127,10 @@ There are three key points worth to be mentioned:
    caption="Fig. 6, [[3][hussein2019videograph]] Demostraction of our sub-action result."
 %}
 
-Althougth the properties of this work meets our goal, there are some concerns. First of all, it can not perform frame-wise inference.
+Although the properties of this work meets our goal, there are some concerns. First of all, it can not perform frame-wise inference.
 Second, this model is hard to learn since it has asked to learn the relationship of each nodes by itself.
-To tackle it, the embedding network extracts per-frame deep features by using 2D CNN instead of 3D networks.
-In addition, we borrow the way of learn relationship of each nodes from paper [[12][swetha2021unsupervised]].
+To tackle it, we have made the following modifications: (1) the embedding network extracts per-frame deep features by using 2D CNN instead of 3D networks.
+(2) we borrow the way of learn relationship of each nodes from paper [[12][swetha2021unsupervised]].
 
 
 <div id="" style="text-align: justify;" markdown="1">
@@ -190,7 +190,7 @@ attention maps, by biasing it towards low entropy.
 ---
 
 ### Why Plug and Play? Why is Plug and Play needed?
-You might think that [[3][hussein2019videograph]] has already dealt with both action and sub-actions detection task from the perspective of the graph theory, and we also proposed an alternative way to improve the performance as well, 
+You might think that [[3][hussein2019videograph]] has already dealt with both action and sub-actions detection task from the perspective of the graph theory, and we proposed an alternative way to improve the performance as well, 
 why we still need plug and play? Indeed, [[3][hussein2019videograph]] is a multi-task learning method, which significantly degrades the performance of action detection due to the dependency of sub-action family representations.
 That's why we've positioned our approach to *Plug and Play*. 
 
