@@ -13,6 +13,23 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 ## <i class="fa fa-chevron-right"></i> Spotlight news
 <table class="table table-hover">
 
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>Check out my new article![<img src="./images/com//update.gif">]</strong><br>
+</p>
+
+[<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
+<div id="abs_subactionpost" style="text-align: justify;" markdown="1">
+This article introduces how I designed Node Attention Module from scratch under certain conditions. 
+Our goal is to provide a plug-and-play module to extract sub-actions upon any existing action detection approaches.
+<a href='http://127.0.0.1:4000/2023/03/23/subaction/' target='_blank'><img src="/data/subaction/demo.gif" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
+</div>
+
+</td>
+<td class='col-md-2' style='text-align:right;'>Mar. 23, 2022</td>
+</tr>
+
 
 <tr>
 <td>
@@ -20,14 +37,14 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <strong>Our fast gesture recognition method has been granted a patent in Taiwan. [<img src="./images/com//update.gif">]</strong><br> 
 </p>
 </td>
-<td class='col-md-2' style='text-align:right;'>Dec 1, 2021</td>
+<td class='col-md-2' style='text-align:right;'>Dec. 1, 2021</td>
 </tr>
 
 
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>ML Application - TWS Headset with In-Air Gesturing [<img src="./images/com//update.gif">]</strong><br> 
+<strong>ML Application - TWS Headset with In-Air Gesturing.</strong><br> 
 </p>
 [<a href='javascript:;' onclick='$("#abs_tws").toggle()'>Intro</a>] <br>
 <div id="abs_tws" style="text-align: justify;" markdown="1">
