@@ -3,7 +3,7 @@
 </p>
 
 <div id="" style="text-align: justify;" markdown="1">
-I am a research scientist at <b>KaiKuTeK Inc.</b> in Taiwan. My research goal is to achieve visual intelligence for real-world applications 
+I was a research scientist at <b>KaiKuTeK Inc.</b> in Taiwan. My research goal is to achieve visual intelligence for real-world applications 
 and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
 Currently, I am developing gesture recognition with mmWave frequency modulated continuous wave (FMCW) radar, which adopts the range and the velocity estimated from the raw data, 
 such as the time-frequency spectrogram, micro-doppler spectrogram, or range-Doppler image (RDI). Meanwhile, this topic also involve few-shot learning, 
