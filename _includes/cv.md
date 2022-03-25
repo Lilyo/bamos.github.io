@@ -23,7 +23,7 @@ long-tailed or rapid gesture recognition task, even sub-actions exploration.
 <div id="abs_subactionpost" style="text-align: justify;" markdown="1">
 This article introduces how I designed Node Attention Module from scratch under certain conditions. 
 Our goal is to provide a plug-and-play module to extract sub-actions upon any existing action detection approaches.
-<a href='https://lilyo.github.io/2023/03/23/subaction/' target='_blank'><img src="/data/subaction/demo.gif" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
+<a href='https://lilyo.github.io/2022/03/23/subaction/' target='_blank'><img src="/data/subaction/demo.gif" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
 </div>
 
 </td>
