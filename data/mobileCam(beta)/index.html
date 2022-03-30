@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Action detection test"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript, WebRTC, Camera" />
+    <meta name="author" content="Arthur Wu" />
+    <title>Mobile First Camera Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="vid_container">
+        <video id="video" autoplay playsinline></video>
+        <div id="video_overlay"></div>
+      </div>
+      <div id="gui_controls">
+        <!--ONNX model used-->
+        <div class="card elevation">
+          <span id = "counting" class="votecount"></span>
+          <div class="predictions">
+            <div class="prediction-col" id="prediction-0">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">0</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-1">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">1</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-2">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">2</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-3">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">3</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-4">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">4</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-5">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">5</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-6">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">6</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-7">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">7</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-8">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">8</div>
+            </div>
+
+            <div class="prediction-col" id="prediction-9">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number">9</div>
+            </div>
+          </div>
+
+           <canvas
+              class="canvas elevation"
+              id="canvas"
+              width="280"
+              height="280"
+           ></canvas>
+           <div class="button" id="clear-button">CLEAR</div>
+        </div>
+
+        <!--WebCam used-->
+        <button id="takePhotoButton" name="take Photo" type="button"></button>
+        <button id="toggleFullScreenButton" name="toggle FullScreen" type="button" aria-pressed="false"></button>
+        <button id="toggleInferenceButton" name="toggle Inference" type="button" aria-pressed="false"></button>
+        <button id="switchCameraButton" name="switch Camera" type="button" aria-pressed="false" ></button>
+        <canvas
+          class="shot"
+          id="shot"
+          width="280"
+          height="280"
+        ></canvas>
+      </div>
+    </div>
+    <script src="js/adapter.min.js"></script>
+    <script src="js/screenfull.min.js"></script>
+    <script src="js/howler.core.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
