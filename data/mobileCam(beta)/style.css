@@ -145,12 +145,12 @@ button {
   }
 
   #switchCameraButton {
-    left: calc(20% - 32px);
+    left: calc(80% - 32px);
     top: calc(50% - 32px);
   }
 
   #toggleFullScreenButton {
-    left: calc(80% - 32px);
+    left: calc(20% - 32px);
     top: calc(50% - 32px);
   }
 }
