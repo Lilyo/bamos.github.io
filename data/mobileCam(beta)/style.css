@@ -135,12 +135,12 @@ button {
     */
   #vid_container {
     width: 100%;
-    height: 50%;
+    height: 80%;
   }
 
   #gui_controls {
     width: 100%;
-    height: 50%;
+    height: 20%;
     left: 0;
   }
 
@@ -179,7 +179,7 @@ button {
 
   #switchCameraButton {
     left: calc(50% - 32px);
-    top: calc(18% - 32px);
+    top: calc(94% - 32px);
   }
 
   #takePhotoButton {
