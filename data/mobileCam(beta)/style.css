@@ -178,7 +178,7 @@ button {
   }
 
   #switchCameraButton {
-    left: calc(50% - 32px);
+    left: calc(75% - 32px);
     top: calc(94% - 32px);
   }
 
