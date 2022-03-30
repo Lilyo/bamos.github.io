@@ -135,22 +135,22 @@ button {
     */
   #vid_container {
     width: 100%;
-    height: 80%;
+    height: 50%;
   }
 
   #gui_controls {
     width: 100%;
-    height: 20%;
+    height: 50%;
     left: 0;
   }
 
   #switchCameraButton {
-    left: calc(80% - 32px);
+    left: calc(20% - 32px);
     top: calc(50% - 32px);
   }
 
   #toggleFullScreenButton {
-    left: calc(20% - 32px);
+    left: calc(80% - 32px);
     top: calc(50% - 32px);
   }
 }
