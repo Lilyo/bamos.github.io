@@ -149,19 +149,9 @@ button {
     top: calc(50% - 32px);
   }
 
-  #takePhotoButton {
-    left: calc(25% - 32px);
-    top: calc(50% - 32px);
-  }
-
   #toggleFullScreenButton {
     left: calc(80% - 32px);
     top: calc(50% - 32px);
-  }
-
-  #toggleInferenceButton {
-    left: calc(50% - 32px);
-    top: cal
   }
 }
 
@@ -188,8 +178,8 @@ button {
   }
 
   #switchCameraButton {
-    left: calc(75% - 32px);
-    top: calc(94% - 32px);
+    left: calc(50% - 32px);
+    top: calc(18% - 32px);
   }
 
   #takePhotoButton {
