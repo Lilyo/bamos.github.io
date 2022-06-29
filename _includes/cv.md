@@ -3,11 +3,8 @@
 </p>
 
 <div id="" style="text-align: justify;" markdown="1">
-I was a research scientist at <b>KaiKuTeK Inc.</b> in Taiwan. My research goal is to achieve visual intelligence for real-world applications 
+I am a research scientist at <b>Artilux Inc.</b> in Taiwan. My research goal is to achieve visual intelligence for real-world applications 
 and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
-Currently, I am developing gesture recognition with mmWave frequency modulated continuous wave (FMCW) radar, which adopts the range and the velocity estimated from the raw data, 
-such as the time-frequency spectrogram, micro-doppler spectrogram, or range-Doppler image (RDI). Meanwhile, this topic also involve few-shot learning, 
-long-tailed or rapid gesture recognition task, even sub-actions exploration.
 </div>
 
 ## <i class="fa fa-chevron-right"></i> Spotlight news
@@ -118,8 +115,19 @@ It is a symbolic product to push for low power and low-latency deep learning mod
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
+<strong>Senior Software Engineer</strong><br>
+Artilux Inc. | Hsinchu<br>
+</p>
+</td>
+<td class='col-md-2' style='text-align:right;'>Mar. 2022 - Present.</td>
+</tr>
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
 <strong>Machine Learning Engineer</strong><br>
-KaikuteK Inc. | Taipei<br>
+KaiKuTeK Inc. | Taipei<br>
+
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Sub-actions exploration<br>
 &ensp;&ensp;&ensp;&ensp;- Rapid gesture recognition<br>
@@ -145,7 +153,7 @@ KaikuteK Inc. | Taipei<br>
 <td>
 <p markdown="1" style='margin: 0'>
 <strong>Machine Learning Research Intern</strong><br>
-KaikuteK Inc. | Taipei<br>
+KaiKuTeK Inc. | Taipei<br>
 • Research Field<br>
 &ensp;&ensp;&ensp;&ensp;- Long-Tailed Object Recognition<br>
 &ensp;&ensp;&ensp;&ensp;- Few-shot Learning<br>
