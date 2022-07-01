@@ -83,7 +83,7 @@ Since we have simplified assumption, so we get:
 
 $$E\{L(d)\}=p_1 L(d-d_1) + p_2 L(d-d_2)$$
 
-Note that expected loss is not use to do optimization during training, it is used to predict the behavior of trained network at ambiguities, then justify the design of proposed method. 
+Note that expected loss expresses the optimization of training, it is used to predict the behavior of trained network at ambiguities, then justify the design of proposed method. 
 You may also be confused about how to detemine $p\_i$, just keep in mind, we will talk about it later.
 </div>
 
@@ -183,7 +183,7 @@ $$\gamma > \sqrt{\frac{p_1}{p_2}}$$
 
 **Fused Depth Estimator**
 
-We desire to have a fused depth predictor, and we know the foreground and background deptg estimates provide lower and upper bounds on depth for each pixel. 
+We desire to have a fused depth predictor, and we know the foreground and background depth estimates provide lower and upper bounds on depth for each pixel. 
 We express the final fused depth estimator $\hat{d}_t$ for the true depth $d_t$ as a weighted combination of the two depths:
 
 $$\hat{d}_t = \sigma \hat{d}_1 + (1-\sigma) \hat{d}_2 $$
@@ -206,41 +206,65 @@ Here, $p=p_1$, and $p_2=1-p$. This has a minimum at $\sigma=1$ when $𝑝>0.5$ a
 
 ### Depth representation
 <div id="" style="text-align: justify;" markdown="1">
-We have developed three separte loss function whose individual optimazations give us three separate components
+We have developed three separate loss function whose individual optimazations give us three separate components
 of a final depth estimate for each pixel. Based on the characterization of our losses, we require a network to produce a 3-channel output. Then for simplicity we combine all loss functions into a single loss: 
 
-$$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}) + RALE_{\gamma}(c_{2j}) + F(s(c_{3j})))$$
+$$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}-d_1) + RALE_{\gamma}(c_{2j}-d_1) + F(s(c_{3j})))$$
 
 Here $𝑐_{𝑖𝑗}$ refers to pixel $j$ of channel $i$, $s()$ is a Sigmoid function, and the mean is taken over all $𝑁$ pixels.
 We interpret the output of these three channels for a trained network as 
 
 $$𝑐_1 \rightarrow \hat{d}_1, 𝑐_2 \rightarrow \hat{d}_2, s(𝑐_3) \rightarrow \sigma$$
 
-As you can see here, here only put $\hat{d}_1$ into $ALE$, so $p_1$ goes to $1$ and $p_2$ is $0$. 
-By the same token, $\hat{d}_2$ only put into $RALE$, so $p_1$ is $0$ and $p_2$ is $1$.
-To doing so, the constraints above we mentioned are satisfied. 
+Now, let's see what happen here, we force $p_1$ to be $1$, $p_2$ to be $0$, which means the model learn to predict the depth $d$ with only considering foreground depth $d_1$ act as the ground truth depth $d_t$.
+Given $p_1=1$, $p_2=0$ and $d=\hat{d}_1$:
+
+$$E\{ALE_{\gamma}(\varepsilon)\}=p_1 ALE_{\gamma}(d-d_1) + p_2 ALE_{\gamma}(d-d_2)$$
+
+$$=ALE_{\gamma}(\hat{d}_1-d_1)$$ 
+
+By the same token, we have:
+
+$$E\{RALE_{\gamma}(\varepsilon)\}=p_1 RALE_{\gamma}(d-d_1) + p_2 RALE_{\gamma}(d-d_2)$$
+
+$$=RALE_{\gamma}(\hat{d}_2-d_2)$$
+
+We can further interpret that when the pixel locate at the boundary of foreground and background, $ALE$ tend to guiding the model predict $\hat{d}_1$ to be foreground depth $d_1$.
+Meanwhile, $RALE$ tend to guiding the model predict $\hat{d}_2$ to be background depth $d_2$.
+
+<a id="fig4"></a>
+{% include image.html
+   img="/data/twin_surface/dep_rep.png"
+   caption="Fig. 4, Visualization of our sub-action result."
+%}
+
+Finally, we have:
+
+$$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}-d_t) + RALE_{\gamma}(c_{2j}-d_t) + F(s(c_{3j})))$$
+
+Note that, by doing so, the mentioned constraints above are also satisfied. 
 </div>
 
 ---
 
 ### Results
 
-<a id="fig4"></a>
-{% include image.html
-   img="/data/twin_surface/cmp_sota.png"
-   caption="Fig. 4, Visualization of our sub-action result."
-%}
-
 <a id="fig5"></a>
 {% include image.html
-   img="/data/twin_surface/result_kitti.png"
-   caption="Fig. 5, A complex human activity usually is sub-divided into unit-actions."
+   img="/data/twin_surface/cmp_sota.png"
+   caption="Fig. 5, Visualization of our sub-action result."
 %}
 
 <a id="fig6"></a>
 {% include image.html
-   img="/data/twin_surface/result_nyu.png"
+   img="/data/twin_surface/result_kitti.png"
    caption="Fig. 6, A complex human activity usually is sub-divided into unit-actions."
+%}
+
+<a id="fig7"></a>
+{% include image.html
+   img="/data/twin_surface/result_nyu.png"
+   caption="Fig. 7, A complex human activity usually is sub-divided into unit-actions."
 %}
 
 **Ablation Study**
