@@ -209,7 +209,7 @@ Here, $p=p_1$, and $p_2=1-p$. This has a minimum at $\sigma=1$ when $𝑝>0.5$ a
 We have developed three separate loss function whose individual optimazations give us three separate components
 of a final depth estimate for each pixel. Based on the characterization of our losses, we require a network to produce a 3-channel output. Then for simplicity we combine all loss functions into a single loss: 
 
-$$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}-d_1) + RALE_{\gamma}(c_{2j}-d_1) + F(s(c_{3j})))$$
+$$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}-d_1) + RALE_{\gamma}(c_{2j}-d_2) + F(s(c_{3j})))$$
 
 Here $𝑐_{𝑖𝑗}$ refers to pixel $j$ of channel $i$, $s()$ is a Sigmoid function, and the mean is taken over all $𝑁$ pixels.
 We interpret the output of these three channels for a trained network as 
