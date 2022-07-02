@@ -16,14 +16,6 @@ MathJax.Hub.Config({
 
 ---
 
-<a id="fig1"></a>
-{% include image.html
-   img="/data/twin_surface/goal.png"
-   caption="Fig. 1, A complex human activity usually is sub-divided into unit-actions. https://openaccess.thecvf.com/content_WACV_2020/papers/Qu_Depth_Completion_via_Deep_Basis_Fitting_WACV_2020_paper.pdf"
-%}
-
-
-
 <div id="" style="text-align: center;" markdown="1">
 __Part of the contents are abstracted from original paper.__
 </div>
@@ -35,6 +27,13 @@ This article details elegant design of twin-surface extrapolation from imransai.
 ---
 
 ### Goal of Depth Completion Task
+
+<a id="fig1"></a>
+{% include image.html
+   img="/data/twin_surface/goal.png"
+   caption="Fig. 1, Depth completion task."
+%}
+
 <div id="" style="text-align: justify;" markdown="1">
 Depth completion starts from a sparse set of known depth values and estimates the unknown depths for the remaining image pixels.
 </div>
@@ -49,7 +48,7 @@ Depth completion starts from a sparse set of known depth values and estimates th
 <a id="fig2"></a>
 {% include image.html
    img="/data/twin_surface/proposed.png"
-   caption="Fig. 2, A complex human activity usually is sub-divided into unit-actions."
+   caption="Fig. 2, Illustration of proposed method."
 %}
 
 
@@ -58,8 +57,8 @@ Depth completion starts from a sparse set of known depth values and estimates th
 ### Ambiguities in Depth Completion Task
 
 <div id="" style="text-align: justify;" markdown="1">
-Ambiguities have a significant impact on depth completion, and it is useful to have quantitative way to assess thier impact. 
-In this paper, they proposed using the expected loss to predict and explain the impact of ambguities on trained network.
+Ambiguities have a significant impact on depth completion, and it is useful to have quantitative way to assess their impact. 
+In this paper, we proposed using the expected loss to predict and explain the impact of ambguities on trained network.
 
 
 **Simplifying Scene Assumption**
@@ -73,7 +72,7 @@ When $d\_1$ < $d\_2$ we call $d\_1$ the foreground depth and $d\_2$ the backfrou
 
 ### Modeling Assumption by Using Expected Loss
 <div id="" style="text-align: justify;" markdown="1">
-To assess the impact of ambiguties on our network, we build a quantitative model. Consider a single pixel whose has a prediction depth $d$. 
+To assess the impact of ambiguties on the network, we build a quantitative model. Consider a single pixel whose has a prediction depth $d$. 
 Next, assume that the pixel has a set of ambiguties, $d\_i$, each with probability $p\_i$. It means that each $d\_i$ may has a probability $p\_i$ act as ground truth depth. 
 Then, we design the expected loss as a function of depths is:
 
@@ -104,7 +103,7 @@ and to use fusion loss to learn how to select/blend between foreground and backg
    caption="Fig. 3, A complex human activity usually is sub-divided into unit-actions."
 %}
 
-In this paper, they use a pair of error funtions which we call the Asymmetric Linear Error ($ALE$), and its twin, the Reflected Asymmetric Linear Error($RALE$), defined as:
+In this paper, we use a pair of error funtions as shown in <a href="#fig3">Fig.3</a>, which we call the Asymmetric Linear Error ($ALE$), and its twin, the Reflected Asymmetric Linear Error($RALE$), defined as:
 
 $$ALE_{\gamma}=max(-\frac{1}{\gamma} \varepsilon, \gamma \varepsilon)$$
 
@@ -146,7 +145,7 @@ The equation is satisfied only when:
 
 $$p_2 \frac{1}{\gamma} (d_2-d_1) < p_1 \gamma (d_2-d_1)$$
 
-$$\gamma > \sqrt{\frac{p_2}{p_1}}$$
+$$\gamma > \sqrt{\frac{p_2}{p_1}}  \qquad (Constraint \; 1)$$
 
 The same analysis, to estimate the background depth, we propose to minimizing the mean $RALE$ over all pixels to obtain $\hat{d}_2$, the estimated background sufface. 
 By examing Expected RALE, we get the same constraint on $\gamma$., except that the probability ration ins inverted.
@@ -179,7 +178,7 @@ The equation is satisfied only when:
 
 $$p_2 \gamma (d_2-d_1) > p_1 \frac{1}{\gamma} (d_2-d_1)$$
 
-$$\gamma > \sqrt{\frac{p_1}{p_2}}$$
+$$\gamma > \sqrt{\frac{p_1}{p_2}} \qquad (Constraint \; 2) $$
 
 **Fused Depth Estimator**
 
@@ -196,10 +195,16 @@ To estimate fused depth, we examing the loss below:
 
 $$L(\sigma) = E\{F(\sigma)\} = p|\sigma \hat{d}_1 + (1-\sigma) \hat{d}_2-d_1| + (1-p)|\sigma \hat{d}_1 + (1-\sigma) \hat{d}_2-d_2|$$
 
-Here, $p=p_1$, and $p_2=1-p$. This has a minimum at $\sigma=1$ when $𝑝>0.5$ and a minimum at $\sigma=0$ when $𝑝<0.5$.
+Here, $p=p_1$, and $p_2=1-p$. This has a minimum at $\sigma=1$ when $𝑝>0.5$ and a minimum at $\sigma=0$ when $𝑝<0.5$, 
+we also draw the hyperplane of $L(\sigma)$ in <a href="#fig4">Fig.4</a>, the optimize direction guides the model predict either foreground depth $d_1$ or background depth $d_2$.
 
 
->Fig...
+<a id="fig4"></a>
+{% include image.html
+   img="/data/twin_surface/func_f.png"
+   caption="Fig. 4, The hyperplane of $L(\sigma)$."
+%}
+
 </div>
 
 ---
@@ -230,66 +235,68 @@ $$E\{RALE_{\gamma}(\varepsilon)\}=p_1 RALE_{\gamma}(d-d_1) + p_2 RALE_{\gamma}(d
 $$=RALE_{\gamma}(\hat{d}_2-d_2)$$
 
 We can further interpret that when the pixel locate at the boundary of foreground and background, $ALE$ tend to guiding the model predict $\hat{d}_1$ to be foreground depth $d_1$.
-Meanwhile, $RALE$ tend to guiding the model predict $\hat{d}_2$ to be background depth $d_2$.
+Meanwhile, $RALE$ tend to guiding the model predict $\hat{d}_2$ to be background depth $d_2$. See <a href="#fig5">Fig.5</a>:
 
-<a id="fig4"></a>
+<a id="fig5"></a>
 {% include image.html
    img="/data/twin_surface/dep_rep.png"
-   caption="Fig. 4, Visualization of our sub-action result."
+   caption="Fig. 5, Visualization of model behavior."
 %}
 
 Finally, we have:
 
 $$L(c_1, c_2, c_3) = \frac{1}{N} \sum_{j}^{N}(ALE_{\gamma}(c_{1j}-d_t) + RALE_{\gamma}(c_{2j}-d_t) + F(s(c_{3j})))$$
 
-Note that, by doing so, the mentioned constraints above are also satisfied. 
+Note that, by doing so, the mentioned $Constraints \;1\; and \;2$ are also satisfied. 
 </div>
 
 ---
 
 ### Results
 
-<a id="fig5"></a>
-{% include image.html
-   img="/data/twin_surface/cmp_sota.png"
-   caption="Fig. 5, Visualization of our sub-action result."
-%}
-
 <a id="fig6"></a>
 {% include image.html
-   img="/data/twin_surface/result_kitti.png"
-   caption="Fig. 6, A complex human activity usually is sub-divided into unit-actions."
+   img="/data/twin_surface/cmp_sota.png"
+   caption="Fig. 6, Comparison of proposed method with SoTA."
 %}
+
+<!--
 
 <a id="fig7"></a>
 {% include image.html
-   img="/data/twin_surface/result_nyu.png"
+   img="/data/twin_surface/result_kitti.png"
    caption="Fig. 7, A complex human activity usually is sub-divided into unit-actions."
+%}
+
+<a id="fig8"></a>
+{% include image.html
+   img="/data/twin_surface/result_nyu.png"
+   caption="Fig. 8, A complex human activity usually is sub-divided into unit-actions."
 %}
 
 **Ablation Study**
 
 
-<a id="fig7"></a>
-{% include image.html
-   img="/data/twin_surface/ablation_loss_sigma.png"
-   caption="Fig. 7, Effect of loss functions and $\sigma$."
-%}
-
-<a id="fig8"></a>
-{% include image.html
-   img="/data/twin_surface/ablation_gamma.png"
-   caption="Fig. 8, Effect of $\gamma$ on performance."
-%}
-
 <a id="fig9"></a>
 {% include image.html
-   img="/data/twin_surface/ablation_row_sparsity.png"
-   caption="Fig. 9, Effect of sparsity on depth performance."
+   img="/data/twin_surface/ablation_loss_sigma.png"
+   caption="Fig. 9, Effect of loss functions and $\sigma$."
 %}
 
----
+<a id="fig10"></a>
+{% include image.html
+   img="/data/twin_surface/ablation_gamma.png"
+   caption="Fig. 10, Effect of $\gamma$ on performance."
+%}
 
+<a id="fig11"></a>
+{% include image.html
+   img="/data/twin_surface/ablation_row_sparsity.png"
+   caption="Fig. 11, Effect of sparsity on depth performance."
+%}
+
+ -->
+---
 ### Conclusions
 + This paper proposed a twin-surface representation that can estimate foreground, background and fused depth.
 + This paper adopt a pair of asymmetric loss functions to explicitly predict foreground-background object surfaces.
