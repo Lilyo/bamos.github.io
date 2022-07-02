@@ -148,7 +148,7 @@ $$p_2 \frac{1}{\gamma} (d_2-d_1) < p_1 \gamma (d_2-d_1)$$
 $$\gamma > \sqrt{\frac{p_2}{p_1}}  \qquad (Constraint \; 1)$$
 
 The same analysis, to estimate the background depth, we propose to minimizing the mean $RALE$ over all pixels to obtain $\hat{d}_2$, the estimated background sufface. 
-By examing Expected RALE, we get the same constraint on $\gamma$., except that the probability ration ins inverted.
+By examing Expected RALE, we get the same constraint on $\gamma$, except that the probability ration ins inverted.
 
 The full expected $RALE$ loss will be:
 
