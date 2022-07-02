@@ -100,7 +100,7 @@ and to use fusion loss to learn how to select/blend between foreground and backg
 <a id="fig3"></a>
 {% include image.html
    img="/data/twin_surface/ALE&RALE.png"
-   caption="Fig. 3, A complex human activity usually is sub-divided into unit-actions."
+   caption="Fig. 3, Asymmetric Linear Error (ALE) and its twin."
 %}
 
 In this paper, we use a pair of error funtions as shown in <a href="#fig3">Fig.3</a>, which we call the Asymmetric Linear Error ($ALE$), and its twin, the Reflected Asymmetric Linear Error($RALE$), defined as:
