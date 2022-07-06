@@ -21,7 +21,7 @@ __Part of the contents are abstracted from original paper.__
 </div>
 
 <div id="" style="text-align: justify;" markdown="1">
-This article details elegant design of twin-surface extrapolation from imransai. We will step-by-step deriving formula and show why this design works.
+This article details elegant design of twin-surface extrapolation from imransai. We will step-by-step derive formula and show why this design works.
 </div>
 
 ---
