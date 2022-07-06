@@ -58,13 +58,13 @@ Depth completion starts from a sparse set of known depth values and estimates th
 
 <div id="" style="text-align: justify;" markdown="1">
 Ambiguities have a significant impact on depth completion, and it is useful to have quantitative way to assess their impact. 
-In this paper, we proposed using the expected loss to predict and explain the impact of ambguities on trained network.
+In this paper, authors proposed using the expected loss to predict and explain the impact of ambguities on trained network.
 
 
 **Simplifying Scene Assumption**
 
 We make a further simplifying assumption in our analysis that there are at most binary ambiguities per pixel. 
-A binary ambiguties is described by a pixel having probabilites $p\_1$ and $p\_2$ of depths $d\_1$ and $d\_2$ respectively. 
+A binary ambiguities is described by a pixel having probabilites $p\_1$ and $p\_2$ of depths $d\_1$ and $d\_2$ respectively. 
 When $d\_1$ < $d\_2$ we call $d\_1$ the foreground depth and $d\_2$ the backfround depth.
 </div>
 
@@ -72,8 +72,8 @@ When $d\_1$ < $d\_2$ we call $d\_1$ the foreground depth and $d\_2$ the backfrou
 
 ### Modeling Assumption by Using Expected Loss
 <div id="" style="text-align: justify;" markdown="1">
-To assess the impact of ambiguties on the network, we build a quantitative model. Consider a single pixel whose has a prediction depth $d$. 
-Next, assume that the pixel has a set of ambiguties, $d\_i$, each with probability $p\_i$. It means that each $d\_i$ may has a probability $p\_i$ act as ground truth depth. 
+To assess the impact of ambiguities on the network, we build a quantitative model. Consider a single pixel whose has a prediction depth $d$, 
+and has a set of ambiguities, $d\_i$, each with probability $p\_i$. It means that each $d\_i$ may has a probability $p\_i$ act as ground truth depth. 
 Then, we design the expected loss as a function of depths is:
 
 $$E\{L(d)\}=\sum_i p_i L(d-d_i)$$
@@ -91,7 +91,7 @@ You may also be confused about how to detemine $p\_i$, just keep in mind, we wil
 
 ### Designing Loss Function
 <div id="" style="text-align: justify;" markdown="1">
-Loss function is a key component of depth completion. We propose to use two assymetric loss functions to learn foreground and background depth, 
+Loss function is a key component of depth completion. Authors proposed to use two assymetric loss functions to learn foreground and background depth, 
 and to use fusion loss to learn how to select/blend between foreground and background depth.
 
 
@@ -103,17 +103,17 @@ and to use fusion loss to learn how to select/blend between foreground and backg
    caption="Fig. 3, Asymmetric Linear Error (ALE) and its twin."
 %}
 
-In this paper, we use a pair of error funtions as shown in <a href="#fig3">Fig.3</a>, which we call the Asymmetric Linear Error ($ALE$), and its twin, the Reflected Asymmetric Linear Error($RALE$), defined as:
+In this paper, authors use a pair of error funtions as shown in <a href="#fig3">Fig.3</a>, which we call the Asymmetric Linear Error ($ALE$), and its twin, the Reflected Asymmetric Linear Error($RALE$), defined as:
 
 $$ALE_{\gamma}=max(-\frac{1}{\gamma} \varepsilon, \gamma \varepsilon)$$
 
 $$RALE_{\gamma}=max(\frac{1}{\gamma} \varepsilon, -\gamma \varepsilon)$$
 
 Here $\varepsilon$ is the difference between the measurement and the ground truth, $\gamma$ is a parameter, and $max⁡(𝑎,𝑏)$ returns the larger of $𝑎$ and $𝑏$. 
-Note that if $\gamma$ is replaced by $1/\gamma$, both the $ALE$ and $RALE$ are reflected. Thus, without loss of generality, in this work we restrict $\gamma \geq 1$.
+Note that if $\gamma$ is replaced by $1/\gamma$, both the $ALE$ and $RALE$ are reflected. Thus, without loss of generality, we restrict $\gamma \geq 1$ in this work.
 
-To estimate the foreground depth, we propose to minimizing the mean $ALE$ over all pixels to obtain $\hat{d}_1$, the estimated foreground sufface. 
-By examing expected $ALE$, we will know what as ideal network will predict.
+To estimate the foreground depth, authors proposed to minimizing the mean $ALE$ over all pixels to obtain $\hat{d}_1$, the estimated foreground surface. 
+By examing expected $ALE$, we will know what an ideal network will predict.
 
 The full expected $ALE$ loss will be:
 
@@ -147,7 +147,7 @@ $$p_2 \frac{1}{\gamma} (d_2-d_1) < p_1 \gamma (d_2-d_1)$$
 
 $$\gamma > \sqrt{\frac{p_2}{p_1}}  \qquad (Constraint \; 1)$$
 
-The same analysis, to estimate the background depth, we propose to minimizing the mean $RALE$ over all pixels to obtain $\hat{d}_2$, the estimated background sufface. 
+The same analysis, to estimate the background depth, authors proposed to minimizing the mean $RALE$ over all pixels to obtain $\hat{d}_2$, the estimated background surface. 
 By examing Expected RALE, we get the same constraint on $\gamma$, except that the probability ration ins inverted.
 
 The full expected $RALE$ loss will be:
