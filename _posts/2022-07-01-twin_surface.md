@@ -147,6 +147,17 @@ $$p_2 \frac{1}{\gamma} (d_2-d_1) < p_1 \gamma (d_2-d_1)$$
 
 $$\gamma > \sqrt{\frac{p_2}{p_1}}  \qquad (Constraint \; 1)$$
 
+
+<a href="#fig4">Fig.4</a> demonstrates the behavior of foreground depth estimator, we fix $d_1$ and $d_2$ to be $4$ and $8$, respectively. 
+Then dynamically change the ratio of $p_1$ and $p_2$, to see the well-restricted $\gamma$ is needed.
+
+<a id="fig4"></a>
+{% include image.html
+   img="/data/twin_surface/p_change.gif"
+   caption="Fig. 4, The behavior of foreground depth estimator."
+%}
+
+
 The same analysis, to estimate the background depth, authors proposed to minimizing the mean $RALE$ over all pixels to obtain $\hat{d}_2$, the estimated background surface. 
 By examing Expected RALE, we get the same constraint on $\gamma$, except that the probability ration ins inverted.
 
@@ -196,13 +207,13 @@ To estimate fused depth, we examing the loss below:
 $$L(\sigma) = E\{F(\sigma)\} = p|\sigma \hat{d}_1 + (1-\sigma) \hat{d}_2-d_1| + (1-p)|\sigma \hat{d}_1 + (1-\sigma) \hat{d}_2-d_2|$$
 
 Here, $p=p_1$, and $p_2=1-p$. This has a minimum at $\sigma=1$ when $𝑝>0.5$ and a minimum at $\sigma=0$ when $𝑝<0.5$, 
-we also draw the hyperplane of $L(\sigma)$ in <a href="#fig4">Fig.4</a>, the optimize direction guides the model predict either foreground depth $d_1$ or background depth $d_2$.
+we also draw the hyperplane of $L(\sigma)$ in <a href="#fig5">Fig.5</a>, the optimize direction guides the model predict either foreground depth $d_1$ or background depth $d_2$.
 
 
-<a id="fig4"></a>
+<a id="fig5"></a>
 {% include image.html
    img="/data/twin_surface/func_f.png"
-   caption="Fig. 4, The hyperplane of $L(\sigma)$."
+   caption="Fig. 5, The hyperplane of $L(\sigma)$."
 %}
 
 </div>
@@ -235,12 +246,12 @@ $$E\{RALE_{\gamma}(\varepsilon)\}=p_1 RALE_{\gamma}(d-d_1) + p_2 RALE_{\gamma}(d
 $$=RALE_{\gamma}(\hat{d}_2-d_2)$$
 
 We can further interpret that when the pixel locate at the boundary of foreground and background, $ALE$ tend to guiding the model predict $\hat{d}_1$ to be foreground depth $d_1$.
-Meanwhile, $RALE$ tend to guiding the model predict $\hat{d}_2$ to be background depth $d_2$. See <a href="#fig5">Fig.5</a>:
+Meanwhile, $RALE$ tend to guiding the model predict $\hat{d}_2$ to be background depth $d_2$. See <a href="#fig6">Fig.6</a>:
 
-<a id="fig5"></a>
+<a id="fig6"></a>
 {% include image.html
    img="/data/twin_surface/dep_rep.png"
-   caption="Fig. 5, Visualization of model behavior."
+   caption="Fig. 6, Visualization of model behavior."
 %}
 
 Finally, we have:
@@ -254,10 +265,10 @@ Note that, by doing so, the mentioned $Constraints \;1\; and \;2$ are also satis
 
 ### Results
 
-<a id="fig6"></a>
+<a id="fig7"></a>
 {% include image.html
    img="/data/twin_surface/cmp_sota.png"
-   caption="Fig. 6, Comparison of proposed method with SoTA."
+   caption="Fig. 7, Comparison of proposed method with SoTA."
 %}
 
 <!--
