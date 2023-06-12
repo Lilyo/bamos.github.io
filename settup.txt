@@ -18,7 +18,3 @@
 
 bundler exec jekyll build
 bundler exec jekyll serve
-
-
-ubeewu@gmail.com
-ss...
