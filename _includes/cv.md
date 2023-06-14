@@ -10,10 +10,31 @@ and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
 ## <i class="fa fa-chevron-right"></i> Spotlight news
 <table class="table table-hover">
 
+
+
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Check out my new article![<img src="./images/com//update.gif">]</strong><br>
+<strong>Check out my new article! - Removing Occlusion Errors [<img src="./images/com//update.gif">]</strong><br>
+</p>
+
+[<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
+<div id="abs_subactionpost" style="text-align: justify;" markdown="1">
+In this article, we propose a method for addressing occlusion errors in depth completion caused by stereo calibration. 
+Our unsupervised training procedure, not relying on any ground-truth data, combines pseudo labels generation and confidence estimation to reduce the amount of error introduced into the depth map for depth completion.
+<a href='https://lilyo.github.io/2023/06/15/stereo_calib_aug/' target='_blank'><img src="/data/stereo_calib_aug/Overview.png" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
+</div>
+
+</td>
+<td class='col-md-2' style='text-align:right;'>Jun. 15, 2023</td>
+</tr>
+
+
+
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>Check out my new article! - Exploring Sub-Actions</strong><br>
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
@@ -31,7 +52,7 @@ Our goal is to provide a plug-and-play module to extract sub-actions upon any ex
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Our fast gesture recognition method has been granted a patent in Taiwan. [<img src="./images/com//update.gif">]</strong><br> 
+<strong>Our fast gesture recognition method has been granted a patent in Taiwan. </strong><br> 
 </p>
 </td>
 <td class='col-md-2' style='text-align:right;'>Dec. 1, 2021</td>
