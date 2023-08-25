@@ -16,14 +16,6 @@ MathJax.Hub.Config({
 
 ---
 
-<div id="" style="text-align: center;" markdown="1">
-<p style="color:Red">
-**It's not complete now, more details will be shared soon...**
-</p>
-</div>
-
----
-
 <div id="" style="text-align: justify;" markdown="1">
 This article introduces how I tackle occlusion errors in depth completion caused by stereo calibration without requiring raw sparse depth data.
 </div>

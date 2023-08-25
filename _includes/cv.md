@@ -65,7 +65,7 @@ Our goal is to provide a plug-and-play module to extract sub-actions upon any ex
 <strong>ML Application - TWS Headset with In-Air Gesturing.</strong><br> 
 </p>
 [<a href='javascript:;' onclick='$("#abs_tws").toggle()'>Intro</a>] <br>
-<div id="abs_tws" style="text-align: justify;" markdown="1">
+<div id="abs_tws" style="text-align: justify; display: none" markdown="1">
 This presentation is a case study where we are demonstrating how we developed gesture-controlled headphones using a radar sensor on Edge AI applications. 
 I was assigned as the SDK porject leader to be responsible for this task, and led machine learning team to design gesture set for TWS Headset, build and scale our technology solutions for mmwave radar system.<br>
 <div id='outerdiv' style="width:800px; overflow-x:hidden;">
@@ -138,6 +138,13 @@ It is a symbolic product to push for low power and low-latency deep learning mod
 <p markdown="1" style='margin: 0'>
 <strong>Senior Software Engineer</strong><br>
 Artilux Inc. | Hsinchu<br>
+
+• Research Field<br>
+&ensp;&ensp;&ensp;&ensp;- SPAD-based dToF DSP<br>
+&ensp;&ensp;&ensp;&ensp;- Depth Completion<br>
+&ensp;&ensp;&ensp;&ensp;- Neural SLAM<br>
+&ensp;&ensp;&ensp;&ensp;- On-device AI inferencing<br>
+
 </p>
 </td>
 <td class='col-md-2' style='text-align:right;'>Mar. 2022 - Present.</td>
@@ -243,18 +250,61 @@ KaiKuTeK Inc. | Taipei<br>
 
 ## <i class="fa fa-chevron-right"></i> Patents
 <table class="table table-hover">
+
 <tr>
   <td>
 	<p style="font-size:1.5rem">
-		<strong>You-Feng Wu. 2020. IMPULSE-LIKE GESTURE RECOGNITION METHOD, AND IMPULSE-LIKE GESTURE RECOGNITION SYSTEM. Taiwan Patent I748778, filed Dec 1, 2021.</strong><br>
+		<strong>You-Feng Wu. 2023. General gesture detection method and general gesture detection device. Taiwan Patent I810564, filed May 14, 2022.</strong><br>
 	</p>
 	
 	<p style="font-size:1.2rem">
-	<a href="https://twpat2.tipo.gov.tw/twpatc/twpatkm?.84cc0F1F0100000000010050^000000000002301000000010100A7004285">"LINK"</a>
+	<a href="https://twpat1.tipo.gov.tw/twpatc/twpatengkm?!!FRURLI810564">"LINK"</a>
 	</p>
 	
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2023</td>
+</tr>
+
+<tr>
+  <td>
+	<p style="font-size:1.5rem">
+		<strong>You-Feng Wu. 2022. Headset apparatus with gesture recognition function. Taiwan Patent I786678, filed Jun 11, 2021.</strong><br>
+	</p>
+	
+	<p style="font-size:1.2rem">
+	<a href="https://twpat1.tipo.gov.tw/twpatc/twpatengkm?!!FRURLI786678">"LINK"</a>
+	</p>
+	
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+
+<tr>
+  <td>
+	<p style="font-size:1.5rem">
+		<strong>You-Feng Wu. 2022. Range Doppler angle sensing method and device. Taiwan Patent I756122, filed Apri 30, 2021.</strong><br>
+	</p>
+	
+	<p style="font-size:1.2rem">
+	<a href="https://twpat1.tipo.gov.tw/twpatc/twpatengkm?!!FRURLI756122">"LINK"</a>
+	</p>
+	
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+
+<tr>
+  <td>
+	<p style="font-size:1.5rem">
+		<strong>You-Feng Wu. 2020. IMPULSE-LIKE GESTURE RECOGNITION METHOD, AND IMPULSE-LIKE GESTURE RECOGNITION SYSTEM. Taiwan Patent I748778, filed Dec 1, 2022.</strong><br>
+	</p>
+	
+	<p style="font-size:1.2rem">
+	<a href="https://twpat2.tipo.gov.tw/twpatc/twpatkm?.f3830000002010000003200010000000^050000000A000000402E90440ba">"LINK"</a>
+	</p>
+	
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
 </tr>
 <tr>
   <td>
