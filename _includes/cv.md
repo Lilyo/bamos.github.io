@@ -10,12 +10,29 @@ and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
 ## <i class="fa fa-chevron-right"></i> Spotlight news
 <table class="table table-hover">
 
+<tr>
+<td>
+<p markdown="1" style='margin: 0'>
+<strong>Check out my new article! - LLMs as Home Security Guard [<img src="./images/com//update.gif">]</strong><br>
+</p>
+
+[<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
+<div id="abs_subactionpost" style="text-align: justify;" markdown="1">
+This article introduces a proactive home security framework leveraging Large Language Models (LLMs) to analyze video feeds, detect suspicious activities, 
+and engage in real-time communication with homeowners, revolutionizing traditional surveillance systems.
+<a href='https://lilyo.github.io/2024/04/16/llm_guard/' target='_blank'><img src="/data/llm_guard/demo.gif" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
+</div>
+
+</td>
+<td class='col-md-2' style='text-align:right;'>Apr. 16, 2024</td>
+</tr>
+
 
 
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Check out my new article! - Removing Occlusion Errors [<img src="./images/com//update.gif">]</strong><br>
+<strong>Check out my new article! - Removing Occlusion Errors 
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
