@@ -16,8 +16,8 @@ and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
 <strong>Check out my new article! - LLMs as Home Security Guard [<img src="./images/com//update.gif">]</strong><br>
 </p>
 
-[<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
-<div id="abs_subactionpost" style="text-align: justify;" markdown="1">
+[<a href='javascript:;' onclick='$("#abs_llmsg").toggle()'>Intro</a>]<br>
+<div id="abs_llmsg" style="text-align: justify;" markdown="1">
 This article introduces a proactive home security framework leveraging Large Language Models (LLMs) to analyze video feeds, detect suspicious activities, 
 and engage in real-time communication with homeowners, revolutionizing traditional surveillance systems.
 <a href='https://lilyo.github.io/2024/04/16/llm_guard/' target='_blank'><img src="/data/llm_guard/demo.gif" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
@@ -35,8 +35,8 @@ and engage in real-time communication with homeowners, revolutionizing tradition
 <strong>Check out my new article! - Removing Occlusion Errors 
 </p>
 
-[<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
-<div id="abs_subactionpost" style="text-align: justify;" markdown="1">
+[<a href='javascript:;' onclick='$("#abs_removeocc").toggle()'>Intro</a>]<br>
+<div id="abs_removeocc" style="text-align: justify;" markdown="1">
 In this article, we propose a method for addressing occlusion errors in depth completion caused by stereo calibration. 
 Our unsupervised training procedure, not relying on any ground-truth data, combines pseudo labels generation and confidence estimation to reduce the amount of error introduced into the depth map for depth completion.
 <a href='https://lilyo.github.io/2023/06/15/stereo_calib_aug/' target='_blank'><img src="/data/stereo_calib_aug/Overview.png" onerror="this.style.display='none'" style='border: none;' width='1080' height='360' /></a>
