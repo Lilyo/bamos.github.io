@@ -13,7 +13,7 @@ and study advanced topics in <b>machine learning</b> and <b>computer vision</b>.
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Check out my new article! - LLMs as Home Security Guard [<img src="./images/com//update.gif">]</strong><br>
+<strong>New article! - LLMs as Home Security Guard [<img src="./images/com//update.gif">]</strong><br>
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_llmsg").toggle()'>Intro</a>]<br>
@@ -32,7 +32,7 @@ and engage in real-time communication with homeowners, revolutionizing tradition
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Check out my new article! - Removing Occlusion Errors 
+<strong>New article! - Removing Occlusion Errors 
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_removeocc").toggle()'>Intro</a>]<br>
@@ -51,7 +51,7 @@ Our unsupervised training procedure, not relying on any ground-truth data, combi
 <tr>
 <td>
 <p markdown="1" style='margin: 0'>
-<strong>Check out my new article! - Exploring Sub-Actions</strong><br>
+<strong>New article! - Exploring Sub-Actions</strong><br>
 </p>
 
 [<a href='javascript:;' onclick='$("#abs_subactionpost").toggle()'>Intro</a>]<br>
@@ -157,7 +157,7 @@ It is a symbolic product to push for low power and low-latency deep learning mod
 Artilux Inc. | Hsinchu<br>
 
 • Research Field<br>
-&ensp;&ensp;&ensp;&ensp;- SPAD-based dToF DSP<br>
+&ensp;&ensp;&ensp;&ensp;- Time-gated SPAD<br>
 &ensp;&ensp;&ensp;&ensp;- Depth Completion<br>
 &ensp;&ensp;&ensp;&ensp;- Neural SLAM<br>
 &ensp;&ensp;&ensp;&ensp;- On-device AI inferencing<br>
